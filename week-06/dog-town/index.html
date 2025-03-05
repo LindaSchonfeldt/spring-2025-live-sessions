@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dogs book</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dogs book</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+  <body>
+    <h1>This is Dog town</h1>
+    <p>Let's take a look at some cute dogs</p>
+    <button id="black-btn">Fetch black dogs</button>
+    <button id="brown-btn">Fetch brown dogs</button>
+    <select id="filter-dropdown">
+      <option value="all">All</option>
+      <option value="brown">Brown</option>
+      <option value="black">Black</option>
+      <option value="grey">Gray</option>
+      <option value="mixed">Mixed</option>
+    </select>
 
-<body>
-  <h1>This is Dog town</h1>
-  <p>Let's take a look at some cute dogs</p>
-  <button id="btn">Show black dogs</button>
-  <section id="container">
-  </section>
+    <section id="container"></section>
 
-
-  <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
