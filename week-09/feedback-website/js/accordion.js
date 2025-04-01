@@ -63,7 +63,7 @@ function initAccordion() {
       panel.style.maxHeight = 0
 
       panel.addEventListener(
-        "transitioned",
+        "transitionend",
         () => {
           panel.hidden = true
         },
